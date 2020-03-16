@@ -1,0 +1,27 @@
+{
+    "name": "my_server",
+    "description": "Web server",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/KHARIKA17/my-server"
+    },
+    "keywords": [
+        "JavaScript",
+        "Node.js",
+        "web",
+        "server"
+    ],
+    "author": "Harika Kulkarni",
+    "license": "None",
+    "bugs": {
+      "url": "https://github.com/KHARIKA17/TESTQA"
+    },
+    "homepage": "https://github.com/KHARIKA17/my-server"
+  }
