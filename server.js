@@ -8,9 +8,14 @@ const port = process.env.PORT || 3002
 const server = http.createServer((req, res) => {
   res.statusCode = 200
   res.setHeader('Content-Type', 'text/plain')
-  res.write('Hello world...\n')
   
-  res.end('Hello World! This is text - we can respond with HTML, JSON, and more :)\n')
+
+  res.write('Welcome    \n')
+  res.write('About Node js \n')
+  res.write('Node.js is an open source,cross platform,JavaScript runtime environment that executes JavaScript code outside of a web browser.\n')
+  
+  
+  res.end('Thanks for visting :)\n')
 })
 
 // start listening
