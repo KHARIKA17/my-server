@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
   res.write('Node.js is an open source,cross platform,JavaScript runtime environment that executes JavaScript code outside of a web browser.\n')
   
   
-  res.end('Thanks for visting :)\n')
+  res.end('Thanks for visting.\n')
 })
 
 // start listening
